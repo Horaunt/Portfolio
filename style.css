@@ -20,6 +20,11 @@
 	--color-wh1: #ffffff;
 }
 
+.link{
+	text-decoration: none;
+	color: black;
+}
+
 *{
     margin: 0;
     padding: 0;
