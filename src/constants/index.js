@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Flutter Developer",
     icon: creator,
   },
 ];
@@ -198,58 +198,58 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI Assistant App using Flutter",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An AI-powered assistant application built using Flutter. It utilizes the OpenAI API key to generate images and text-based responses, providing users with personalized assistance.",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "OpenAI",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Dally",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Horaunt/ai_assistant",
   },
   {
-    name: "Job IT",
+    name: "Custom Arch Linux Rice",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A customized Arch Linux desktop environment featuring Hyprland as the desktop environment, Kitty as the terminal emulator, Rofi as the application manager,Waybar as the status bar.",
     tags: [
       {
-        name: "react",
+        name: "Linux",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Arch",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Distro",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Horaunt/dotfiles",
   },
   {
-    name: "Trip Guide",
+    name: "Profile Card App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A simple profile card application designed to display user information in an elegant and user-friendly format.",
     tags: [
       {
-        name: "nextjs",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "dart",
         color: "green-text-gradient",
       },
       {
