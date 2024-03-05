@@ -7,9 +7,15 @@ import {
   typescript,
   html,
   css,
+  other,
+  ai,
+  card,
+  linux,
+  languages,
   reactjs,
   redux,
   tailwind,
+  development,
   nodejs,
   mongodb,
   git,
@@ -118,7 +124,7 @@ const experiences = [
   {
     title: "Development",
     company_name: "",
-    icon: starbucks,
+    icon: development,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
@@ -135,7 +141,7 @@ const experiences = [
   {
     title: "Other Skills",
     company_name: "",
-    icon: tesla,
+    icon: other,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -151,7 +157,7 @@ const experiences = [
   {
     title: "Languages",
     company_name: "",
-    icon: shopify,
+    icon: languages,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -217,7 +223,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: ai,
     source_code_link: "https://github.com/Horaunt/ai_assistant",
   },
   {
@@ -238,7 +244,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: linux,
     source_code_link: "https://github.com/Horaunt/dotfiles",
   },
   {
@@ -259,7 +265,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: card,
     source_code_link: "https://github.com/Horaunt/Profile_app1",
   },
 ];

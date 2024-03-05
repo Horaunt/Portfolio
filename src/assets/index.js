@@ -29,13 +29,27 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import development from "./development.jpg";
+import languages from "./languages.jpg";
+import other from "./other.jpg";
+import card from "./card.jpg";
+import ai from "./ai.jpg";
+import linux from "./linux.jpg";
+import horaunt from "./horaunt.png";
 
 export {
+  other,
+  languages,
+  ai,
+  card,
+  linux,
   logo,
+  horaunt,
   backend,
   creator,
   mobile,
   web,
+  development,
   github,
   menu,
   close,
