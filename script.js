@@ -109,9 +109,20 @@ function scrollActive() {
   })
 }
 
-function toggleDarkMode() {
-    const body = document.body;
-    body.classList.toggle('dark-mode');
-}
+let isDarkMode = false;
+
+        function toggleDarkMode() {
+            const body = document.body;
+            isDarkMode = !isDarkMode;
+            if (isDarkMode) {
+                body.classList.add('dark-mode');
+                document.querySelector('.dark_but').innerText = 'Toggle Light Mode';
+            } else {
+                body.classList.remove('dark-mode');
+                document.querySelector('.dark_but').innerText = 'Toggle Dark Mode';
+            }
+        }
+  toggleDarkMode();
+
 
 window.addEventListener('scroll', scrollActive)
