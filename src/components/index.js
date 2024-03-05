@@ -8,6 +8,7 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import ChatBot from './Chatbot';
 
 
 export {
@@ -16,6 +17,7 @@ export {
   About,
   Tech,
   Experience,
+  ChatBot,
   Works,
   Feedbacks,
   Contact,
