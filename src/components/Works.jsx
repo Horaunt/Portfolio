@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import Tilt from "react-parallax-tilt"
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
@@ -17,7 +17,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div
+      <Tilt
         options={{
           max: 45,
           scale: 1,
@@ -61,7 +61,7 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </div>
+      </Tilt>
     </motion.div>
   );
 };
