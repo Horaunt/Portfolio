@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, ChatbotWidget } from "./components";
+import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, ChatbotWidget, MeteorCanvas } from "./components";
 
 
 const App = () => {
@@ -11,7 +11,12 @@ const App = () => {
           {/* <ChatWidget steps={steps} theme={theme} config={config} /> */}
           <Navbar />
           <Hero />
+        
         </div>
+        
+        
+        
+        
         <About />
         <Experience />
         <Tech />
@@ -21,8 +26,12 @@ const App = () => {
           <Contact />
           
         </div>
+
+      
+        
         <StarsCanvas />
         <ChatbotWidget />
+
       </div>
       
     </BrowserRouter>

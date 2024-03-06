@@ -5,6 +5,7 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import Tilt from "react-parallax-tilt"
+import { MeteorCanvas } from "./canvas";
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
@@ -47,7 +48,7 @@ const About = () => {
       >
         Meet Pranay, a passionate computer enthusiast with a diverse skill set and a knack for innovation. As an accomplished app developer, Pranay crafts intuitive and dynamic applications, pushing the boundaries of user experience. Beyond coding, Pranay delves into the realm of cybersecurity, specializing in penetration testing to fortify digital defenses. With a penchant for challenges, Pranay thrives in Capture The Flag (CTF) competitions, leveraging problem-solving prowess to conquer complex scenarios. An avid Linux enthusiast, Pranay transforms operating systems into personalized masterpieces through meticulous ricing, while also embracing the principles of DevOps to streamline development pipelines. With a blend of creativity and technical acumen, Pranay is poised to revolutionize the digital landscape.
       </motion.p>
-
+      {/* <MeteorCanvas/> */}
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
