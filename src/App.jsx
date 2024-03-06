@@ -1,13 +1,14 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, ChatBot } from "./components";
+import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, ChatbotWidget } from "./components";
+
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
         <div className=''>
-          
+          {/* <ChatWidget steps={steps} theme={theme} config={config} /> */}
           <Navbar />
           <Hero />
         </div>
@@ -21,7 +22,7 @@ const App = () => {
           
         </div>
         <StarsCanvas />
-        <ChatBot />
+        <ChatbotWidget />
       </div>
       
     </BrowserRouter>
