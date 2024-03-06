@@ -5,7 +5,7 @@ import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, Cha
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-primar'>
+      <div className='relative z-0 bg-primary'>
         <div className=''>
           
           <Navbar />
