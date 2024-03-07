@@ -8,7 +8,7 @@ const App = () => {
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
         <div className=''>
-          {/* <ChatWidget steps={steps} theme={theme} config={config} /> */}
+          
           <Navbar />
           <Hero />
         
