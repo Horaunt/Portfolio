@@ -40,9 +40,9 @@ const Meteor = () => {
     mesh.current.position.z += motionDirection[2];
 
     // Wrap around if meteor moves out of view
-    if (mesh.current.position.x > 10 || mesh.current.position.x < -10 ||
-        mesh.current.position.y > 10 || mesh.current.position.y < -10 ||
-        mesh.current.position.z > 10 || mesh.current.position.z < -10) {
+    if (mesh.current.position.x > 5 || mesh.current.position.x < -5 ||
+        mesh.current.position.y > 5 || mesh.current.position.y < -5 ||
+        mesh.current.position.z > 5 || mesh.current.position.z < -5) {
       mesh.current.position.set(...initialPosition);
     }
   });
@@ -60,6 +60,7 @@ const StarsCanvas = () => {
         <Suspense fallback={null}>
           <Stars />
           <Meteor/>
+          
         </Suspense>
 
         <Preload all />

@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { SectionWrapper } from "../hoc";
 
 const Hero = () => {
   return (
@@ -16,7 +17,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi There, I'm <span className='text-[#28afb0]'>Pranay</span>
+            Hi There, I'm <span className='text-[#28afb0]'>Suryansh</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop Websites, user <br className='sm:block hidden' />
@@ -49,4 +50,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default SectionWrapper(Hero, "hero");
