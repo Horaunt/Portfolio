@@ -1,5 +1,5 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/resume",
       "destination": "https://drive.google.com/file/d/14ue7684lObH3YhyvChtAlS_RF86_k0un/view?usp=sharing",
